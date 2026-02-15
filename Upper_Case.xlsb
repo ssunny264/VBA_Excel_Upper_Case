@@ -1,0 +1,12 @@
+sub Upper_Case()
+
+Dim c As Range
+
+For Each c In Selection.Cells
+
+    'Replace the existing value with the uppercase text value
+    c.value = UCase(c.value)
+    
+    Next c
+
+end sub
